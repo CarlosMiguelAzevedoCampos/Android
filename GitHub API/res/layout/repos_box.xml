@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Repository name-->
+        <TextView
+            android:id="@+id/file_name_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/file_name"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorAccent2"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/file_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="@string/file_name_text"
+            android:textSize="16sp" />
+        <!--END Repository name-->
+
+        <!--Repository description-->
+        <TextView
+            android:id="@+id/file_size_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/file_size"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorAccent2"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/file_size_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="@string/file_size_text"
+            android:textSize="16sp" />
+        <!--END Repository description-->
+
+        <!--Repository Download Link-->
+        <TextView
+            android:id="@+id/file_download_url_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/file_download"
+            android:textColor="@color/colorAccent2"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/file_download_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="5dp"
+            android:text="@string/file_download_text"
+            android:textSize="16sp" />
+        <!--END Repository Download Link-->
+
+        <!--Repository File Type-->
+        <TextView
+            android:id="@+id/file_type_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/file_type"
+            android:textColor="@color/colorAccent2"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/file_type_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="5dp"
+            android:text="@string/file_type_text"
+            android:textSize="16sp" />
+        <!--END Repository File Type-->
+    </LinearLayout>
+
+</LinearLayout>

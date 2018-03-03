@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Repository Name-->
+        <TextView
+            android:id="@+id/repo_name_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/repo_name"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorAccent2"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/repo_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/repo_name_text"
+            android:textSize="16sp" />
+        <!--END Repository Name-->
+
+        <!--Repository Description-->
+        <TextView
+            android:id="@+id/repo_description_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/repo_description"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorAccent2"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/repo_description_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/repo_description_text"
+            android:textSize="16sp" />
+        <!--END Repository Description-->
+
+        <!--Repository Language-->
+        <TextView
+            android:id="@+id/repo_language_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/repo_language"
+            android:textColor="@color/colorAccent2"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/repo_language_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/repo_language_text"
+            android:textSize="16sp" />
+        <!--END Repository Language-->
+
+        <!--Repository Created at-->
+        <TextView
+            android:id="@+id/repo_date_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/repo_text_creation"
+            android:textColor="@color/colorAccent2"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/repo_date_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/repo_text_creation_text"
+            android:textSize="16sp" />
+        <!--END Repository Created at-->
+
+        <!--Button See More-->
+        <Button
+            android:id="@+id/btn_more"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_border"
+            android:text="@string/watch_more" />
+        <!--END Button See More-->
+
+    </LinearLayout>
+
+</LinearLayout>

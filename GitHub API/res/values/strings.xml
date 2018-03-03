@@ -1,0 +1,36 @@
+<resources>
+    <!--Identifiers for textview-->
+    <string name="app_name">GitHub - Carlos API</string>
+
+    <!--Repos_info xml file-->
+    <string name="repo_name">Repository name</string>
+    <string name="repo_description">Repository descripiton</string>
+    <string name="repo_text_creation">Created at</string>
+    <string name="repo_language">Language of this Repository</string>
+
+    <!--Repos_box xml file-->
+    <string name="file_name">File Name</string>
+    <string name="file_size">File Size</string>
+    <string name="file_download">File Download Link</string>
+    <string name="file_type">File Type</string>
+
+    <!--Values for textviews-->
+        <!--Repos_info xml file-->
+            <string name="repo_name_text">REPO NAME</string>
+            <string name="repo_description_text">REPO DESCRIPTION</string>
+            <string name="repo_text_creation_text">2018-02-09T12:37:44Z</string>
+            <string name="repo_language_text">LANGUAGE</string>
+        <!--Repos_box xml file-->
+            <string name="file_name_text">File Name</string>
+            <string name="file_size_text">File Size</string>
+            <string name="file_download_text">File Download Link</string>
+            <string name="file_type_text">File Type</string>
+
+    <!--Values for Buttons-->
+    <string name="watch_more">More..</string>
+
+
+    <!--Values for Toasts-->
+    <string name="toast_watch_more">Opening more details from</string>
+
+</resources>
